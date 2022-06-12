@@ -1,0 +1,13 @@
+
+<ul>
+
+{% assign sorted_works = include.works | sort: "year" %}
+{% for work in sorted_works reversed %}
+<li>{{ work.title | smartify }} (
+    {%- if work.start-year != null -%}
+        {{ work.start-year}}–
+    {%- endif -%}
+{{ work.year }})</li>
+{% endfor %}
+
+</ul>

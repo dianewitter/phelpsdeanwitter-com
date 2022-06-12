@@ -32,7 +32,8 @@
     - title: Sonata No. 1
       year: 1952
     - title: Sonata No. 2
-      year: 1965–66
+      year: 1966
+      start-year: 1965
     - title: Sonata No. 3
       year: 1966
     - title: 4 Pieces
@@ -54,9 +55,9 @@
     - title: Piano Trio No. 2
       year: 2018
 
-- type: Solo
+- type: Solo Instrumental
   subtypes:
-  - type: Piano
+  - type: Solo Piano
     works:
     - title: Suite in E-flat
       year: 1949
@@ -95,7 +96,7 @@
     - title: Sonata No. 4
       year: 2016
 
-  - type: Bassoon
+  - type: Solo Bassoon
     works:
     - title: Rondo for Solo Bassoon
       year: 2018
