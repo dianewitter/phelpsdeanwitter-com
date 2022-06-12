@@ -1,0 +1,165 @@
+---
+---
+@charset "utf-8";
+@import "base";
+
+// BASIC ELEMENTS
+* { box-sizing: border-box; }
+
+body {
+    font-family: $text-font;
+    color: $text-color;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: $standard-line-height;
+    background-color: $brand-color-light;
+    font-synthesis: none;
+}
+
+a {
+    &:link, &:visited, &:active {
+        color: $text-color;
+    }
+    &:hover {
+        color: $brand-color-medium;
+    }
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: $compact-line-height;
+    color: $brand-color-dark;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: $header-font;
+    text-transform: uppercase;
+}
+
+// OVERALL LAYOUT
+header, main > *, footer {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: $minimum-side-padding;
+    padding-right: $minimum-side-padding;
+    @include breakpoint(mobile) {
+        padding-left: $minimum-mobile-side-padding;
+        padding-right: $minimum-mobile-side-padding;
+    }
+}
+main > *, footer {
+    max-width: $max-content-width;
+}
+header {
+    max-width: $max-extended-content-width;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+
+    display: flex;
+    column-gap: 1rem;
+    align-items: center;
+    justify-content: space-between;
+    > a {
+        flex-shrink: 0;
+        font-size: 1.2em;
+    }
+    a {
+        &:link, &:visited, &:active {
+            color: $brand-color-dark;
+        }
+    }
+
+    nav {
+        display: flex;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+        gap: .3em 1rem;
+        margin-top: .5em;
+        margin-bottom: .5em;
+        margin-right: .5em;
+        div a {
+            text-transform: uppercase;
+        }
+    }
+}
+main {
+    background-color: $background-color;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+
+    > h1 {
+        @include extended-block-behavior;
+        font-size: 2.5em;
+    }
+
+    a {
+        text-decoration: underline;
+        text-decoration-color: $text-color;
+        text-underline-offset: .2em;
+        &:hover {
+            text-decoration-color: $brand-color-dark;
+        }
+    }
+}
+footer {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.logo {
+    font-family: Oswald;
+    position: relative;
+    text-transform: uppercase;
+    display: inline-grid;
+    grid-template-columns: min-content min-content;
+    grid-template-rows: min-content min-content;
+    > span {
+        font-variation-settings: 'wght' 300;
+        display: block;
+        &:nth-child(1) {
+            grid-area: 1 / 1 / 2 / 2;
+            line-height: .85;
+            letter-spacing: -.05em;
+        }
+        &:nth-child(2) {
+            grid-area: 2 / 1 / 3 / 2;
+            line-height: .95;
+            letter-spacing: -.05em;
+        }
+        &:nth-child(3) {
+            grid-area: 1 / 2 / 3 / 3;
+            font-variation-settings: 'wght' 350;
+            font-size:  2.12em;
+            line-height: .765;
+            letter-spacing: 0em;
+        }
+    }
+}
+
+
+// STYLE
+header {
+}
+
+nav, footer {
+    font-size: .8em;
+    letter-spacing: .05em;
+    margin-top: .6em;
+    line-height: $compact-line-height;
+}
+sup {
+    // With this we avoid adding extra line height to "km^2"
+    line-height: 0;
+}
+
+.home #header-home a,
+.biography #header-biography a,
+.works #header-works a,
+.performances #header-performances a,
+.gallery #header-gallery a,
+.contact #header-contact a {
+    color: $brand-color-medium;
+}
+
+// MAIN

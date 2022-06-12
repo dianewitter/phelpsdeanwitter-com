@@ -1,0 +1,125 @@
+- type: Orchestral
+  works:
+  - title: Prelude
+    year: 1949
+  - title: Sinfonietta No. 1
+    year: 1981
+  - title: Sinfonietta No. 2
+    year: 1987
+  - title: Symphony No. 1
+    year: 1982
+  - title: Symphony No. 2
+    year: 1997
+  - title: Symphony No. 3
+    year: 2003
+  - title: Symphony No. 4
+    year: 2020
+  - title: Concerto for Piano and Orchestra
+    year: 2008
+
+- type: Chamber Music
+  subtypes:
+  - type: Violin & Piano
+    works:
+    - title: Sonatina
+      year: 1953
+    - title: Sonata No. 1
+      year: 1992
+    - title: Sonata No. 2
+      year: 2011
+  - type: Flute & Piano
+    works:
+    - title: Sonata No. 1
+      year: 1952
+    - title: Sonata No. 2
+      year: 1965–66
+    - title: Sonata No. 3
+      year: 1966
+    - title: 4 Pieces
+      year: 1993
+  - type: String Quartet
+    works:
+    - title: String Quartet No. 1
+      year: 1981
+    - title: String Quartet No. 2
+      year: 1989
+    - title: String Quartet No. 3
+      year: 1999
+    - title: String Quartet No. 4
+      year: 2010
+  - type: Piano Trio
+    works:
+    - title: Piano Trio No. 1
+      year: 1983
+    - title: Piano Trio No. 2
+      year: 2018
+
+- type: Solo
+  subtypes:
+  - type: Piano
+    works:
+    - title: Suite in E-flat
+      year: 1949
+    - title: Three Pieces
+      year: 1949
+    - title: Toccata
+      year: 1950
+    - title: Prelude & Toccata
+      year: 1951
+    - title: Scherzo
+      year: 1953
+    - title: Moses Miniatures
+      year: 1954
+    - title: Concert Allegro
+      year: 1954
+    - title: Andante
+      year: 1965
+    - title: Four Easy Pieces
+      year: 1966
+    - title: Variations on "Jeepers Creepers"
+      year: 1980
+    - title: Three Pieces
+      year: 1981
+    - title: Sonata No. 1
+      year: 1985
+    - title: Four pieces
+      year: 1990
+    - title: Sonata No. 2
+      year: 1995
+    - title: Three Short Pieces
+      year: 1998
+    - title: Sonata No. 3
+      year: 2003
+    - title: Three Pieces
+      year: 2009
+    - title: Sonata No. 4
+      year: 2016
+
+  - type: Bassoon
+    works:
+    - title: Rondo for Solo Bassoon
+      year: 2018
+
+- type: Songs
+  works:
+  - title: Winter Night
+    year: 1950
+  - title: 3 Songs on Chinese Poems
+    year: 1950
+  - title: Daybreak
+    year: 1951
+  - title: Sweet Day
+    year: 1951
+  - title: Whistling Girl
+    year: 1952
+  - title: The True Knowledge
+    year: 1953
+  - title: Songs of Sonoma
+    year: 1999
+  - title: Songs of the Homeless
+    year: 2004
+
+- type: Other Works
+  works:
+  - title: Piano Concerto
+    year: 2008
