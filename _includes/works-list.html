@@ -3,7 +3,16 @@
 
 {% assign sorted_works = include.works | sort: "year" %}
 {% for work in sorted_works reversed %}
-<li>{{ work.title | smartify }} (
+<li>
+    {%- if work.has-performance == null -%}
+        {{ work.title | smartify }}
+    {%- elsif work.has-performance == true -%}
+        <a href="{{ site.baseurl }}{% link performances.md %}#{{ work.title | slugify }}">{{ work.title | smartify }}</a>
+    {%- else -%}
+        <a href="{{ site.baseurl }}{% link performances.md %}#{{ work.has-performance }}">{{ work.title | smartify }}</a>
+    {%- endif %}
+
+    (
     {%- if work.start-year != null -%}
         {{ work.start-year}}–
     {%- endif -%}

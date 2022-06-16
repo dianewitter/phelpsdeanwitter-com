@@ -3,15 +3,15 @@
 @charset "utf-8";
 @import "base";
 
-main img {
-    height: 112%;
-    transform: translate(-3.6%,-7.8%) rotate(-7deg)
-}
 #main-pic {
     width: min(60%,475px);
     aspect-ratio: 1;
     overflow: hidden;
-    position:  relative;
+    position: relative;
+    img {
+        height: 112%;
+        transform: translate(-3.7%,-7.8%) rotate(-7deg)
+    }
 }
 main .logo {
     padding: .5em;
@@ -21,17 +21,25 @@ main .logo {
     background-color: $brand-color-dark;
     color: $background-color;
 
-    font-size: 2.5em;
-    @include breakpoint(tablet) {
-    	font-size: 2.3em;
-    }
-    @include breakpoint(mobile) {
-    	font-size: 2em;
-    }
+    font-size: calc(min(3.5em, 7vw));
 }
 
 #hero {
     @include extended-block-behavior(850px);
 	position: relative;
 	margin-bottom: 4em;
+}
+#youtube-subscribe {
+    @include standard-block-behavior();
+}
+
+dt {
+    hanging-punctuation: first;
+}
+dd {
+    margin-left: 0;
+    text-align: right;
+    font-style: italic;
+    font-size: .9em;
+    margin-bottom: 2em;
 }

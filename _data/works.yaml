@@ -4,18 +4,23 @@
     year: 1949
   - title: Sinfonietta No. 1
     year: 1981
+    has-performance: true
   - title: Sinfonietta No. 2
     year: 1987
+    has-performance: true
   - title: Symphony No. 1
     year: 1982
   - title: Symphony No. 2
     year: 1997
-  - title: Symphony No. 3
+  - title: Symphony No. 3 "9/11"
     year: 2003
+    has-performance: true
   - title: Symphony No. 4
     year: 2020
+    has-performance: true
   - title: Concerto for Piano and Orchestra
     year: 2008
+    has-performance: piano-concerto
 
 - type: Chamber Music
   subtypes:
@@ -23,21 +28,28 @@
     works:
     - title: Sonatina
       year: 1953
-    - title: Sonata No. 1
+    - title: Violin Sonata No. 1
       year: 1992
-    - title: Sonata No. 2
+    - title: Violin Sonata No. 2
       year: 2011
+      has-performance: true
   - type: Flute & Piano
     works:
-    - title: Sonata No. 1
+    - title: Flute Sonata No. 1
       year: 1952
-    - title: Sonata No. 2
+    - title: Flute Sonata No. 2
       year: 1966
       start-year: 1965
-    - title: Sonata No. 3
+    - title: Flute Sonata No. 3
       year: 1966
-    - title: 4 Pieces
+    - title: Four Pieces
       year: 1993
+      has-performance: four-pieces-for-flute-and-piano
+  - type: String Trio
+    works:
+    - title: String Trio
+      year: 2021
+      has-performance: true
   - type: String Quartet
     works:
     - title: String Quartet No. 1
@@ -48,12 +60,14 @@
       year: 1999
     - title: String Quartet No. 4
       year: 2010
+      has-performance: true
   - type: Piano Trio
     works:
     - title: Piano Trio No. 1
       year: 1983
     - title: Piano Trio No. 2
       year: 2018
+      has-performance: true
 
 - type: Solo Instrumental
   subtypes:
@@ -79,27 +93,39 @@
       year: 1966
     - title: Variations on "Jeepers Creepers"
       year: 1980
+      has-performance: piano-variations-on-jeepers-creepers
     - title: Three Pieces
       year: 1981
-    - title: Sonata No. 1
+      has-performance: three-pieces-for-piano
+    - title: Piano Sonata No. 1
       year: 1985
-    - title: Four pieces
+      has-performance: true
+    - title: Four Pieces
       year: 1990
-    - title: Sonata No. 2
+      has-performance: four-pieces-for-piano
+    - title: Piano Sonata No. 2
       year: 1995
     - title: Three Short Pieces
       year: 1998
-    - title: Sonata No. 3
+    - title: Piano Sonata No. 3
       year: 2003
+      has-performance: true
     - title: Three Pieces
       year: 2009
-    - title: Sonata No. 4
+    - title: Piano Sonata No. 4
       year: 2016
+      has-performance: piano-sonata-no-4
+    - title: Sonatina
+      year: 2018
+      has-performance: sonatina-for-piano
+    - title: Preludes, Book II
+      year: 2022
 
   - type: Solo Bassoon
     works:
     - title: Rondo for Solo Bassoon
       year: 2018
+      has-performance: true
 
 - type: Songs
   works:
@@ -117,10 +143,7 @@
     year: 1953
   - title: Songs of Sonoma
     year: 1999
+    has-performance: true
   - title: Songs of the Homeless
     year: 2004
-
-- type: Other Works
-  works:
-  - title: Piano Concerto
-    year: 2008
+    has-performance: songs-of-the-homeless-i-cry-out-loud

@@ -1,0 +1,23 @@
+---
+---
+@charset "utf-8";
+@import "base";
+
+div.image {
+    max-width: $max-extended-content-width;
+
+    img {
+        width: 10em;
+        margin-bottom: 1rem;
+
+        &.right {
+            float: right;
+            margin-left: 2rem;
+        }
+
+        &.left {
+            float: left;
+            margin-right: 2rem;
+        }
+    }
+}

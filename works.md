@@ -1,6 +1,7 @@
 ---
 body-class: works
 title: Works
+custom-css: works
 ---
 
 {%- for ensemble in site.data.works %}

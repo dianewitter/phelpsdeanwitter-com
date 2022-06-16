@@ -1,12 +1,12 @@
-$brand-font: sans-serif;
-$header-font: sans-seif;
-$text-font: sans-serif;
+$brand-font: Oswald, sans-serif;
+$header-font: Montserrat, sans-seif;
+$text-font: PublicSans, sans-serif;
 
-// This needs to be synced with site.background-color in _config.yml
-$background-color: #F2F5F6;
+$background-color: #F9FDFF;
 $text-color: #5f5f5f;
 $brand-color-dark: #38515f;
 $brand-color-medium: #46a2b1;
+// This needs to be synced with site.background-color in _config.yml
 $brand-color-light: #B6DAF1;
 
 $standard-line-height: 1.6;
