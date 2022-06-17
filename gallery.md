@@ -8,14 +8,16 @@ custom-css: gallery
 	{%- if item.hide -%}
 	{%- continue -%}
 	{%- endif -%}
-### {{ item.index }}
-	{% if item.video-filename != null %}
-<p>
-<video controls>
-	<source src="{{ 'assets/gallery/' | append: item.video-filename | relative_url }}" />
+<div>
+{% if item.video-filename != null %}
+<video controls poster="{{ 'assets/gallery/' | append: item.poster | relative_url }}">
+	<source src="{{ 'assets/gallery/' | append: item.video-filename | relative_url 	}}" />
 </video>
-</p>
-	{% else %}
+{% else %}
 <img src="{{ 'assets/gallery/' | append: item.filename | relative_url }}" />
 	{% endif %}
+	{%- if item.caption %}
+<p>{{ item.caption }}</p>
+	{%- endif -%}
+</div>
 {% endfor %}

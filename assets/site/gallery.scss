@@ -3,10 +3,22 @@
 @charset "utf-8";
 @import "base";
 
-p {
-    text-align: center;
-}
-img, video {
-    max-width: 100%;
-    max-height: 100vh;
+main {
+    font-family: $header-font;
+    div {
+        margin-top: 2em;
+        margin-bottom: 4em;
+        text-align: center;
+    }
+    p {
+        margin-top: .5em;
+    }
+    img {
+        display: block;
+        margin: 0 auto;
+    }
+    img, video {
+        max-width: 100%;
+        max-height: calc(100vh - 3em);
+    }
 }
