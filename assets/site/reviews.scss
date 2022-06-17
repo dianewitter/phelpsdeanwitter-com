@@ -1,0 +1,15 @@
+---
+---
+@charset "utf-8";
+@import "base";
+
+dt {
+    hanging-punctuation: first;
+}
+dd {
+    margin-left: 0;
+    text-align: right;
+    font-style: italic;
+    font-size: .9em;
+    margin-bottom: 2em;
+}

@@ -32,14 +32,3 @@ main .logo {
 #youtube-subscribe {
     @include standard-block-behavior();
 }
-
-dt {
-    hanging-punctuation: first;
-}
-dd {
-    margin-left: 0;
-    text-align: right;
-    font-style: italic;
-    font-size: .9em;
-    margin-bottom: 2em;
-}
