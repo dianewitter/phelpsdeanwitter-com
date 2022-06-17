@@ -5,7 +5,10 @@ custom-css: gallery
 ---
 
 {% for item in site.data.gallery %}
-### {% increment counter %}
+	{%- if item.hide -%}
+	{%- continue -%}
+	{%- endif -%}
+### {{ item.index }}
 	{% if item.video-filename != null %}
 <p>
 <video controls>
