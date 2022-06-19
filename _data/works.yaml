@@ -1,4 +1,4 @@
-- type: Orchestral
+- type: Orchestra
   works:
   - title: Prelude
     year: 1949
@@ -18,7 +18,9 @@
   - title: Symphony No. 4
     year: 2020
     has-performance: true
-  - title: Concerto for Piano and Orchestra
+- type: Soloist & Orchestra
+  works:
+  - title: Concerto for Piano & Orchestra
     year: 2008
     has-performance: piano-concerto
 
@@ -116,9 +118,13 @@
       year: 2016
       has-performance: piano-sonata-no-4
     - title: Sonatina
-      year: 2018
+      year: 2017
       has-performance: sonatina-for-piano
-    - title: Preludes, Book II
+    - title: Prelude and Fugue
+      year: 2018
+    - title: Twelve Preludes, Book 1
+      year: 2019
+    - title: Twelve Preludes, Book 2
       year: 2022
 
   - type: Solo Bassoon
