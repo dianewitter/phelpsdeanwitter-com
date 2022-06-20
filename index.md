@@ -16,8 +16,8 @@ custom-css: home
 
 <script src="https://apis.google.com/js/platform.js"></script>
 
-<div>
-	<div id="youtube-subscribe" style="float: right;"><div class="g-ytsubscribe" data-channelid="UCpglZR1-LikfL8n5d3upyBQ" data-layout="full" data-theme="default" data-count="hidden"></div></div>
+<div style="display:flex; flex-direction:row-reverse; align-items: center;">
+	<div id="youtube-subscribe" style="width: 200px;"><div class="g-ytsubscribe" data-channelid="UCpglZR1-LikfL8n5d3upyBQ" data-layout="full" data-theme="default" data-count="hidden"></div></div>
 
 	<p>Phelps Dean Witter launches his YouTube Channel</p>
 </div>
