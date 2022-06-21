@@ -1,16 +1,11 @@
 ---
 body-class: contact
 title: Contact
+custom-css: contact
 ---
 
-For commissions and inquiries, please contact the artist directly:
+For commissions and inquiries, please contact us with the form below.
 
-> Phelps Dean Witter  
-> pdwitter@yahoo.com  
-> P.O. Box 29245  
-> Los Angeles, California 90029
-
-<!-- modify this form HTML and place wherever you want your form -->
 <form
   action="https://formspree.io/f/xoqrzjaw"
   method="POST"
@@ -30,3 +25,5 @@ For commissions and inquiries, please contact the artist directly:
   <!-- your other form fields go here -->
   <button type="submit">Send</button>
 </form>
+
+Management: Diane Young <[dianechar@gmail.com](mailto:dianechar@gmail.com)>
