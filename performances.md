@@ -20,11 +20,17 @@ custom-css: performances
 {{ performance.details }}
 </p>
 
-<div class="mostly-audio">
-{%- if performance.youtube-audio -%}
-{%- include youtube-embed.html youtube-id=performance.youtube-audio -%}
-{%- endif -%}
+{%- if performance.spotify-playlist -%}
+<div class="contentful-video">
+{{ performance.spotify-playlist }}
 </div>
+{%- endif -%}
+
+{%- if performance.youtube-audio -%}
+<div class="mostly-audio">
+{%- include youtube-embed.html youtube-id=performance.youtube-audio -%}
+</div>
+{%- endif -%}
 
 {%- if performance.youtube-video -%}
 <div class="contentful-video">
