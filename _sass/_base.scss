@@ -12,7 +12,7 @@ $brand-color-light: #B6DAF1;
 $standard-line-height: 1.6;
 $compact-line-height: 1.2;
 
-$minimum-side-padding: 1rem;
+$minimum-side-padding: calc(1rem + env(safe-area-inset-left));
 $minimum-mobile-side-padding: calc(.75rem + env(safe-area-inset-left));
 $max-content-width: 40rem;
 $max-extended-content-width: 60rem;
