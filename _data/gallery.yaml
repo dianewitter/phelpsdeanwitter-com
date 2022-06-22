@@ -1,39 +1,27 @@
 - filename: originals/bio-pic-1_5_orig.jpg
-  index: 10
   caption: Dean Witter as a child
 - filename: 1957.jpg
-  index: 3
   caption: Paris 1950's
-- filename: 2.jpg
-  index: 4
-- filename: 0.jpg
-  index: 0
-- filename: 3.jpg
-  index: 7
-- filename: 5.jpg
-  index: 8
 - filename: originals/parisflata.jpeg
-  index: 9
   caption: Dean and Barbara Witter in Paris 1950's
+- filename: 2.jpg
+- filename: 0.jpg
+- filename: 3.jpg
+- filename: 5.jpg
+- filename: Dad_and_Mom_piano.jpeg
+  caption: Dean and Barbara Witter with Leonard Pennario
 - filename: originals/bio-pic-3_orig.jpg
-  index: 11
   caption: Dean and Barbara Witter in San Francisco
 - video-filename: originals/atpiano.mp4
-  index: 13
   caption: Playing piano silently
   poster: video_poster.jpg
 - filename: originals/0a.jpg
-  index: 1
   hide: true
 - filename: originals/1.jpg
-  index: 2
   hide: true
 - filename: originals/2020_FirstFamily_0070_a_Original.jpeg
-  index: 5
   hide: true
 - filename: originals/2020_FirstFamily.jpeg
-  index: 6
   hide: true
 - filename: originals/for-bio_orig.jpg
-  index: 12
   hide: true
