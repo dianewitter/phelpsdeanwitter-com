@@ -4,8 +4,8 @@
 @import "base";
 
 #main-pic {
-    width: min(60%,475px);
-    aspect-ratio: 1;
+    width: min(60vw, 475px);
+    height: min(60vw, 475px);
     overflow: hidden;
     position: relative;
     img {

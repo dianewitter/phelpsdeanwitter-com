@@ -95,6 +95,15 @@ header {
         gap: .3em 1rem;
         margin-top: .5em;
         margin-bottom: .5em;
+        @supports not (aspect-ratio: 1) {
+            margin-top: .35em;
+            margin-bottom: .35em;
+            > * {
+                padding-left: 1rem;
+                padding-top: .15em;
+                padding-bottom: .15em;
+            }
+        }
         div a {
             text-transform: uppercase;
         }
@@ -169,5 +178,10 @@ iframe {
     display: block;
     width: 100%;
     aspect-ratio: 640 / 360;
+    @include breakpoint(mobile) {
+        @supports not (aspect-ratio: 1) {
+            height: calc((100vw - 2 * #{$minimum-mobile-side-padding}) * 360 / 640);
+        }
+    }
 }
 
