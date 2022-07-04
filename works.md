@@ -2,6 +2,7 @@
 body-class: works
 title: Works
 custom-css: works
+description: Complete list of works composed by Phelps Dean Witter.
 ---
 
 {%- for ensemble in site.data.works %}

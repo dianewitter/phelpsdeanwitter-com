@@ -1,6 +1,7 @@
 ---
 body-class: biography
 title: Bio
+description: Biography of Phelps Dean Witter.
 ---
 
 Born in Wisconsin Rapids, WI, on October 4, 1932, Phelps Dean Witter moved shortly after with his family to Los Angeles, California. There, Mr. Witter began piano studies at an early age with Ethel Leginska, and composition with Halsey Stevens. His family later moved to San Francisco, where he continued his piano studies with Egon Petri, and composition with Alexander Tcherepnin and Darius Milhaud. At age sixteen, Mr. Witter was awarded First Prize in the San Francisco Chronicles’s Annual Talent Contest, for his Suite in E-flat for piano.

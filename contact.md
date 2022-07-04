@@ -2,6 +2,7 @@
 body-class: contact
 title: Contact
 custom-css: contact
+description: Contact Phelps Dean Witter and management.
 ---
 
 For commissions and inquiries, please contact us with the form below.

@@ -2,6 +2,7 @@
 body-class: gallery
 title: Gallery
 custom-css: gallery
+description: Media gallery of Phelps Dean Witter.
 ---
 
 {% for item in site.data.gallery %}

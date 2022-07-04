@@ -2,6 +2,7 @@
 body-class: performances
 title: Performances
 custom-css: performances
+description: Performance and recordings of Phelps Dean Witter's works.
 ---
 
 {% assign sorted_meta = site.data.media | sort: "year" %}

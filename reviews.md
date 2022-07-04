@@ -2,6 +2,7 @@
 body-class: reviews
 title: Reviews
 custom-css: reviews
+description: Reviews of Phelps Dean Witter's works.
 ---
 
 “Yet there are human touches throughout, as in the absorbing String Quartet No 4 by Phelps Dean Witter, which the composer came up with on his way to the grocery store and which in its last movement hearkens back to Wolf’s Italian Serenade.”
