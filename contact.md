@@ -26,5 +26,3 @@ For commissions and inquiries, please contact us with the form below.
   <!-- your other form fields go here -->
   <button type="submit">Send</button>
 </form>
-
-Management: Diane Young <[dianechar@gmail.com](mailto:dianechar@gmail.com)>
