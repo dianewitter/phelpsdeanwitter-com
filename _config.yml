@@ -24,9 +24,12 @@ description: >- # this means to ignore newlines until "baseurl:"
 keywords: >-
   P.D. Witter, Dean Witter, composer, Conservatory Paris, Nadia Boulanger, William Corbett Jones, Michel Debost, Concervatoire De Paris, Neo- Classical, Leon Fleischer, Maurice Durufle, L’Ecole de Fontainebleau, Jean Pasquier, Kensington Orchestra, pianist
 baseurl: ""
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://phelpsdeanwitter.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 background-color: "#B6DAF1"
+
+plugins:
+  - jekyll-sitemap
 
 # Exclude from processing.
 # The following items will not be processed, by default.
