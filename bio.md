@@ -10,5 +10,5 @@ When he was seventeen, Mr. Witter's family moved to France, where he continued h
 
 Upon returning to the United States, Mr. Witter and his wife Barbara, settled in San Francisco, where they raised four children.  
 
-Among his many [compositions]({{ site.baseurl }}{% link works.md %}) are three Symphonies and two Sinfoniettas for orchestra, the first of which won First Prize at The Kensington Orchestra’s Composition Competition in 1982, and was subsequently performed by the orchestra. Mr. Witter’s extensive catalogue includes chamber music, many piano works, several song cycles, and a series of preludes.
+Among his many [compositions]({{ site.baseurl }}{% link works.md %}) are four Symphonies and two Sinfoniettas for orchestra, the first of which won First Prize at The Kensington Orchestra’s Composition Competition in 1982, and was subsequently performed by the orchestra. Mr. Witter’s extensive catalogue also includes many works, as well as chamber music and vocal compositions.
 
