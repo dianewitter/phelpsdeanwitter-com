@@ -5,16 +5,23 @@
 - filename: originals/parisflata.jpeg
   caption: Dean and Barbara Witter in Paris 1950's
 - filename: 2.jpg
+  caption: With Nadia Boulanger, Fontainebleau 1951
 - filename: 0.jpg
+  caption: Nadia Boulanger and students at Conservatoire de Paris, 1954
 - filename: 3.jpg
+  caption: Fontainebleau Summer Class of 1954
 - filename: 5.jpg
+  caption: Fontainebleau Summer Class of 1954
 - filename: Dad_and_Mom_piano.jpeg
-  caption: Dean and Barbara Witter with Leonard Pennario
+  caption: Dean and Barbara Witter with Leonard Pennario, 1975
 - filename: originals/bio-pic-3_orig.jpg
-  caption: Dean and Barbara Witter in San Francisco
+  caption: Dean and Barbara Witter in San Francisco, 1992
 - video-filename: originals/atpiano.mp4
-  caption: Playing piano silently
+  caption: Playing piano silently, 2015
   poster: video_poster.jpg
+- video-filename: party.mp4
+  caption: Impromptu performance, 2016
+  poster: party_video_poster.jpg
 - filename: originals/0a.jpg
   hide: true
 - filename: originals/1.jpg
