@@ -12,6 +12,10 @@ custom-css: home
 
 ## Latest News
 
+### April 2022
+
+Phelps Dean Witter completes his 24 Preludes for Piano.
+
 ### April 2021
 
 <script src="https://apis.google.com/js/platform.js"></script>
