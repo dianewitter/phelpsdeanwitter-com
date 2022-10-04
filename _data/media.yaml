@@ -1,82 +1,81 @@
 - title: Songs of Sonoma
   year: 1999
-  youtube-audio: jUVx1WlSjcg
+#  youtube-audio: jUVx1WlSjcg
   youtube-video: aFYe5WpQZAo
   details: Erich Stratmann, Baritone. Piano played by the composer.
 - title: Songs of the Homeless "I Cry Out Loud"
   year: 2004
   youtube-video: 7yXSXQTevck
-  video-has-content: true
   details: Performed by Singers of the Street.
-- title: String Trio
-  year: 2021
-  youtube-audio: uXbv-T17X2c
-  details: Digital Audio Recording.
-- title: Symphony No. 4
-  year: 2020
-  youtube-audio: fRaAyDF-xIE
-  details: Digital Audio Recording.
-- title: Sinfonietta No. 2
-  year: 1987
-  youtube-audio: iV7BXOUH7KM
-  details: Digital Audio Recording.
-- title: Piano Variations on "Jeepers Creepers"
-  year: 1980
-  youtube-audio: GkFa-kK3Zyc
-  details: Digital Audio Recording.
-- title: Rondo for Solo Bassoon
-  year: 2018
-  youtube-audio: x81v5FnPpR0
-  details: Alireza Motevaseli, Bassoon.
-- title: Sonatina for Piano 
-  year: 2017
-  youtube-audio: opVzY1ZEAJE
-  details: Julie Barwick, Piano.
-- title: Piano Trio No. 2 
-  year: 2018
-  youtube-audio: iKy4ftNJ9ok
-  details: Alden Trio.
-- title: Piano Sonata No. 4 
-  year: 2016
-  youtube-audio: NnsxVLLj_qs
-  details: Jun Cai, Piano.
-- title: Violin Sonata No. 2 
-  year: 2011
-  youtube-audio: _mu8tn9tWis
-  details: Julie Barwick, Piano. Yuri Kye, Violin.
-- title: String Quartet No. 4 
-  year: 2010
-  youtube-audio: jDbzyo3krXE
-  details: Altius String Quartet.
-- title: Piano Concerto 
-  year: 2008
-  youtube-audio: UoU0t3vMdP8
-  details: Digital Audio Recording.
-- title: Symphony No. 3 "9/11"
-  youtube-audio: Tcn7wDh9RnI
-  year: 2003
-  details: Digital Audio Recording.
-- title: Piano Sonata No. 3 
-  year: 2003
-  youtube-audio: 9qaltqPUSIM
-  details: William C. Jones, Piano.
-- title: Four Pieces for Flute and Piano
-  year: 1993
-  youtube-audio: v4q6T-mSaWU
-  details: Michel Debost, Flute.
-- title: Four Pieces for Piano 
-  year: 1990
-  youtube-audio: f5QTMZemtJQ
-  details: William C. Jones, Piano.
-- title: Piano Sonata No. 1 
-  year: 1985
-  youtube-audio: bBa4ehMCugo
-  details: Played by the composer.
-- title: Sinfonietta No. 1 
-  year: 1981
-  youtube-audio: nc3uKmIfOZk
-  details: Kensington Orchestra.
-- title: Three Pieces for Piano 
-  year: 1981
-  youtube-audio: xgLz-P1V56k
-  details: Played by the composer.
+#- title: String Trio
+#  year: 2021
+#  youtube-audio: uXbv-T17X2c
+#  details: Digital Audio Recording.
+#- title: Symphony No. 4
+#  year: 2020
+#  youtube-audio: fRaAyDF-xIE
+#  details: Digital Audio Recording.
+#- title: Sinfonietta No. 2
+#  year: 1987
+#  youtube-audio: iV7BXOUH7KM
+#  details: Digital Audio Recording.
+#- title: Piano Variations on "Jeepers Creepers"
+#  year: 1980
+#  youtube-audio: GkFa-kK3Zyc
+#  details: Digital Audio Recording.
+#- title: Rondo for Solo Bassoon
+#  year: 2018
+#  youtube-audio: x81v5FnPpR0
+#  details: Alireza Motevaseli, Bassoon.
+#- title: Sonatina for Piano
+#  year: 2017
+#  youtube-audio: opVzY1ZEAJE
+#  details: Julie Barwick, Piano.
+#- title: Piano Trio No. 2
+#  year: 2018
+#  youtube-audio: iKy4ftNJ9ok
+#  details: Alden Trio.
+#- title: Piano Sonata No. 4
+#  year: 2016
+#  youtube-audio: NnsxVLLj_qs
+#  details: Jun Cai, Piano.
+#- title: Violin Sonata No. 2
+#  year: 2011
+#  youtube-audio: _mu8tn9tWis
+#  details: Julie Barwick, Piano. Yuri Kye, Violin.
+#- title: String Quartet No. 4
+#  year: 2010
+#  youtube-audio: jDbzyo3krXE
+#  details: Altius String Quartet.
+#- title: Piano Concerto
+#  year: 2008
+#  youtube-audio: UoU0t3vMdP8
+#  details: Digital Audio Recording.
+#- title: Symphony No. 3 "9/11"
+#  youtube-audio: Tcn7wDh9RnI
+#  year: 2003
+#  details: Digital Audio Recording.
+#- title: Piano Sonata No. 3
+#  year: 2003
+#  youtube-audio: 9qaltqPUSIM
+#  details: William C. Jones, Piano.
+#- title: Four Pieces for Flute and Piano
+#  year: 1993
+#  youtube-audio: v4q6T-mSaWU
+#  details: Michel Debost, Flute.
+#- title: Four Pieces for Piano
+#  year: 1990
+#  youtube-audio: f5QTMZemtJQ
+#  details: William C. Jones, Piano.
+#- title: Piano Sonata No. 1
+#  year: 1985
+#  youtube-audio: bBa4ehMCugo
+#  details: Played by the composer.
+#- title: Sinfonietta No. 1
+#  year: 1981
+#  youtube-audio: nc3uKmIfOZk
+#  details: Kensington Orchestra.
+#- title: Three Pieces for Piano
+#  year: 1981
+#  youtube-audio: xgLz-P1V56k
+#  details: Played by the composer.
